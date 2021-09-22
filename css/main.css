@@ -10,6 +10,10 @@ body {
   font-size: 18px;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 a {
   text-decoration: none;
   color: #23272a;
@@ -86,14 +90,14 @@ a {
   font-size: 13px;
 }
 
-h1 {
-  font-size: 48px;
-}
-
 .color-w {
   color: #fff;
 }
 
+i {
+  margin-right: 8px;
+  font-size: 14px;
+}
 /* Navigation */
 
 nav .container {
