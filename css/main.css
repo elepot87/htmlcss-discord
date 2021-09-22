@@ -7,11 +7,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
+  font-size: 18px;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #23272a;
 }
 
 /* Debug elements */
@@ -34,9 +35,21 @@ a {
   content: " ";
 }
 
+.mt-15 {
+  margin-top: 15px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+
 .py-20 {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .px-16 {
@@ -44,14 +57,26 @@ a {
   padding-left: 16px;
 }
 
+.px-25 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
 .pr-16 {
   padding-right: 16px;
 }
 
-.btn-light {
-  text-align: center;
-  background-color: #fff;
+.btn {
   border-radius: 20px;
+  text-align: center;
+}
+
+.btn-light {
+  background-color: #fff;
+}
+
+.btn-dark {
+  background-color: #23272a;
+  color: #fff;
 }
 
 .btn-small {
@@ -63,6 +88,10 @@ a {
 
 h1 {
   font-size: 48px;
+}
+
+.color-w {
+  color: #fff;
 }
 
 /* Navigation */
@@ -122,14 +151,18 @@ section.hero {
 }
 
 .hero .container {
-  background-color: red;
   margin: 0 auto;
-  width: 60%;
+  width: 55%;
   text-align: center;
-  padding: 70px 50px 60px;
-  color: #fff;
+  padding: 70px 50px 110px 60px;
+}
+
+.hero .cta {
+  width: 100%;
 }
 
 .hero .container .btn {
   display: inline-block;
+  height: 45px;
+  line-height: 45px;
 }
