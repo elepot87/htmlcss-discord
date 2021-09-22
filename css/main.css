@@ -18,12 +18,6 @@ body {
 
 /* Utilities */
 
-.main-navigation .container {
-  margin: 0 auto;
-  background-color: red;
-  width: 80%;
-}
-
 .bg-blue {
   background: #3161e0;
 }
@@ -34,9 +28,9 @@ body {
   content: " ";
 }
 
-.py-16 {
-  padding-top: 16px;
-  padding-bottom: 16px;
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .px-16 {
@@ -46,6 +40,17 @@ body {
 
 .pr-16 {
   padding-right: 16px;
+}
+
+/* Navigation */
+
+nav .container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+nav .brand {
+  vertical-align: middle;
 }
 
 .col {
@@ -60,16 +65,35 @@ body {
   width: 70%;
 }
 
+ul.navigation {
+  list-style: none;
+}
+
+ul.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+ul.navigation li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 35px;
+}
+
 div.big {
   position: relative;
 }
-
 div.btn {
   position: absolute;
-  width: 20%;
+  width: 10%;
   top: 0;
-  right: 16px;
-  height: 50px;
-  line-height: 50px;
+  right: 0;
+  height: 35px;
+  line-height: 35px;
   text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 13px;
 }
