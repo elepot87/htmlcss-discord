@@ -13,8 +13,7 @@ body {
   height: 50px;
   background: rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(0, 0, 0, 0.2);
-  float: left;
-  min-width: 50%;
+  width: 100%;
 }
 
 /* Utilities */
@@ -45,6 +44,22 @@ body {
   padding-left: 16px;
 }
 
+.pr-16 {
+  padding-right: 16px;
+}
+
 .btn {
   float: right;
+}
+
+.col {
+  float: left;
+}
+
+.col.small {
+  width: 30%;
+}
+
+.col.big {
+  width: 70%;
 }
