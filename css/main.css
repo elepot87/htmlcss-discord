@@ -22,7 +22,7 @@ a {
 /* Debug elements */
 .debug-box {
   height: 50px;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.2);
   width: 100%;
 }
@@ -98,15 +98,18 @@ i {
   margin-right: 8px;
   font-size: 14px;
 }
-/* Navigation */
 
-nav .container {
-  margin: 0 auto;
-  width: 75%;
+.bg-light {
+  background-color: #fff;
 }
 
-nav .brand {
-  vertical-align: middle;
+.bg-dark {
+  background-color: #f6f6f6;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
 }
 
 .col {
@@ -119,6 +122,18 @@ nav .brand {
 
 .col.big {
   width: 70%;
+}
+/* Navigation */
+
+/* 
+nav .container {
+  margin: 0 auto;
+  width: 75%;
+}
+ */
+
+nav .brand {
+  vertical-align: middle;
 }
 
 ul.navigation {
