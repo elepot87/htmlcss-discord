@@ -8,6 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* Debug elements */
 .debug-box {
   height: 50px;
@@ -103,4 +108,18 @@ div.btn-nav {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+/* Hero */
+section.hero {
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+}
+
+.hero .container {
+  background-color: red;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding: 70px 50px 60px;
 }
