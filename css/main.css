@@ -42,6 +42,19 @@ body {
   padding-right: 16px;
 }
 
+.btn-light {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.btn-small {
+  width: 65px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 13px;
+}
+
 /* Navigation */
 
 nav .container {
@@ -85,15 +98,9 @@ ul.navigation li a {
 div.big {
   position: relative;
 }
-div.btn {
+
+div.btn-nav {
   position: absolute;
-  width: 10%;
   top: 0;
   right: 0;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 20px;
-  font-size: 13px;
 }
