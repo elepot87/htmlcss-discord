@@ -48,10 +48,6 @@ body {
   padding-right: 16px;
 }
 
-.btn {
-  float: right;
-}
-
 .col {
   float: left;
 }
@@ -62,4 +58,18 @@ body {
 
 .col.big {
   width: 70%;
+}
+
+div.big {
+  position: relative;
+}
+
+div.btn {
+  position: absolute;
+  width: 20%;
+  top: 0;
+  right: 16px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
 }
