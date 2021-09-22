@@ -91,6 +91,10 @@ a {
   padding-right: 16px;
 }
 
+.pl-100 {
+  padding-left: 100px;
+}
+
 .btn {
   border-radius: 20px;
   text-align: center;
